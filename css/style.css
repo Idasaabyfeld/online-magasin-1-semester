@@ -1,0 +1,105 @@
+/* Reset af standardbrowser-styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #dfe8d1;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    position: -webkit-sticky;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #326733;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.main-nav {
+    background-color: #b6d9a3;
+}
+
+h1 {
+    margin-top: 10px;
+    color: #335c44;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+} 
+
+.icons {
+    display: flex;
+    justify-content: center; /* Centrér horisontalt */
+    align-items: center; /* Centrér vertikalt */
+    height: 300px; /* Du kan justere højden som du vil */
+    gap: 20px; /* Gør afstanden mellem ikonerne større */
+} 
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrér teksten under hvert ikon */
+    text-align: center;
+}
+
+.icon i {
+    font-size: 50px; /* Størrelse på ikonerne */
+    margin-bottom: 10px; /* Afstand mellem ikon og tekst */
+}
+
+.icon img {
+    width: 50px;
+    height: auto;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+footer form {
+    margin-bottom: 10px;
+}
+
+footer .socials img {
+    width: 100px;
+    margin: 0 10px;
+}
+
+
+
+/* Page 2 om genbrug og secondhand*/
+
+image {
+    width: 50px; /* Juster bredden */
+    height: auto; /* Bevarer billedets proportioner */
+}
+
